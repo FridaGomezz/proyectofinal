@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.titulo1 {
+    margin-left: 200px;
+    font-size: 3rem;
+}
+
+.titulo {
+    flex: 20;
+    margin-left: 100px;
+    text-align: center;
+    font-family: "Schoolbell", cursive;
+    color: rgb(121, 59, 25);
+    width: 100px;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.busqueda {
+    width: 200px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 5px;
+}
+
+.Persona {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.corazon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.compras {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+nav {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(182, 154, 118);
+}
+
+a {
+    margin: 70px;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor2 {
+    background-image: url(Img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1349px;
+    height: 350px;
+}
+
+.texto1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    flex-direction: column;
+    margin-left: 230px;
+    margin-right: 270px;
+    padding-top: 70px;
+    font-weight: bold;
+}
+
+.texto2 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding-top: 40px;
+    margin-left: -30px;
+}
+
+.txt {
+    padding: 50px;
+    color: rgb(152, 34, 27);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.libros1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.lt1 {
+    font-weight: bold;
+    width: 200px;
+    flex-direction: column;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.lt2 {
+    color: gray;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.boton {
+    color: white;
+    background-color: rgb(152, 34, 27);
+    margin-left: 70px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.l2t1 {
+    font-weight: bold;
+    width: 150px;
+    flex-direction: column;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.libros2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.venta {
+    display: flex;
+}
+
+.precio {
+    color: rgb(152, 34, 27);
+    padding-top: 15px;
+}
+
+.boton2 {
+    color: white;
+    background-color: rgb(152, 34, 27);
+    margin-left: 40px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.txt1 {
+    color: rgb(152, 34, 27);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tspramos {
+    color: rgb(152, 34, 27);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.conocenos {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+footer {
+    background-color: rgb(182, 154, 118);
+}
+
+.trespies {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.pie1 {
+    width: 33%;
+}
+
+.titulitos {
+    margin-top: -20px;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.espacio {
+    color: white;
+}
+
+.ubi {
+    display: flex;
+}
+
+.txto1 {
+    padding-top: 20px;
+    color: white;
+    padding-left: 5px;
+}
+
+.tel {
+    display: flex;
+}
+
+.txto2 {
+    color: white;
+    padding-left: 5px;
+}
+
+.mail {
+    display: flex;
+}
+
+.txto3 {
+    color: white;
+    padding-left: 5px;
+}
+
+.redes {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.pie2 {
+    color: white;
+    width: 33%;
+}
+
+.pie3 {
+    color: white;
+    width: 33%;
+}
+
+.boton3 {
+    background-color: rgb(152, 34, 27);
+    margin-left: -5px;
+}
